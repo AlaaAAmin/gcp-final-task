@@ -24,15 +24,7 @@
 
 ## Requirments
 
-1. Docker running on a linux os. or if you're using windows or MacOS you need it configured to run linux containers
-2. minikube or kubernetes. [minikube installation](https://minikube.sigs.k8s.io/docs/start/)
-3. helm installed on your machine [installion steps](https://helm.sh/docs/intro/install/)
-
-
-## To fire it up
-
-1. clone this project to your pc
-2. open a terminal
+1. Terraform
 
 ## Author
 
