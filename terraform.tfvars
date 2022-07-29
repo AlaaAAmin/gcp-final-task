@@ -15,9 +15,4 @@ private-vm-zone     = "us-central1-a"
 cluster_master_ip_cidr_range   = "10.100.100.0/28"
 cluster_pods_ip_cidr_range     = "10.101.0.0/21"
 cluster_services_ip_cidr_range = "10.102.0.0/21"
-gke-user = {
-  "name" = "super-gene"
-  "pass" = "Itisme98"
-}
-cluster_node_zones = ["us-central1-a"]
-cluster-location   = "us-central1-a"
+cluster-location               = "us-central1-a"

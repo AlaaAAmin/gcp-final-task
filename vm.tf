@@ -18,4 +18,9 @@ resource "google_compute_instance" "private-vm" {
     network    = var.vpc_name
     subnetwork = module.network.managed_sub.name
   }
+
+  service_account {
+    email  = google_service_account.bastion-sa.email
+    scopes = ["cloud-platform"]
+  }
 }

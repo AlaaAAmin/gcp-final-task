@@ -28,6 +28,3 @@ variable "cluster-location" {
 variable "project-id" {
   type = string
 }
-variable "node-zones" {
-  type = list(any)
-}

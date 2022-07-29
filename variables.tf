@@ -45,12 +45,6 @@ variable "cluster_pods_ip_cidr_range" {
 variable "cluster_services_ip_cidr_range" {
   type = string
 }
-variable "gke-user" {
-  type = map(any)
-}
-variable "cluster_node_zones" {
-  type = list(any)
-}
 variable "cluster-location" {
   type = string
 }

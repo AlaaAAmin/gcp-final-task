@@ -21,10 +21,17 @@
 - made a terraform project by running `terraform init` after creating the provider code
 - wrote the rest of the infrastructure code.
 - run `terraform apply`
+- defined the deployment and service files.
+- installed kubectl in the bastion server (private-vm).
+- connect the bastion with the cluster.
+- uploaded the deployment and service files to a directory on the bastion server.
+- run `kubectl apply -f`
 
 ## Requirments
 
 1. Terraform
+2. Kubectl
+3. Google Kubernetes Engine
 
 ## Author
 

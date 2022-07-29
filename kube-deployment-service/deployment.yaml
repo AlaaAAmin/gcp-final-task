@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: py-tornado-framework-rc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: py-rc
+  template:
+    metadata:
+      labels:
+        app: py-rc
+    spec:
+      containers:
+        - name: py-rc-container
+          image: gcr.io/versatile-bolt-354107/reload-count-tornado-py-app:v1.0.1alpine
+          ports:
+            - name: http
+              containerPort: 8000
+              protocol: TCP
